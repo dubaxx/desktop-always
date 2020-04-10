@@ -1,0 +1,16 @@
+
+{
+  "background": {
+     "scripts": [ "request.js" ]
+  },
+  "description": "Redirects any www.m.wikipedia.com page to www.wikipedia.com",
+  "icons": { "16": "DA-16x16.png",
+             "48": "DA-48x48.png",
+             "128": "DA-128x128.png" },
+  "manifest_version": 1,
+  "name": "Desktop Always",
+  "permissions": [ "webRequest", "webRequestBlocking", "http://www.m.wikipedia.com/*", "https://www.m.wikipedia.com/*", "http://www.m.wikipedia.de/*", "https://www.m.wikipedia.de/*", "http://www.m.wikipedia.co.uk/*", "https://www.m.wikipedia.co.uk/*" ],
+  "version": "0.01",
+  "homepage_url": "http://www.smilealways.io",
+  "author":"Weston Baxter"
+}
